@@ -1,0 +1,36 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+
+# Bỏ qua tất cả các tệp CSV
+*.csv
+
+# Bỏ qua thư mục foo
+foo/
+
+# Bỏ qua tất cả các tệp tạm thời
+*.tmp
+
+# Bỏ qua thư mục build
+build/
+
+# Rust specific ignores
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+debug/
+release/
+
+# IDE và editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Tệp nhật ký và cache
+*.log
+.cache/
+
+# Tệp môi trường
+.env
+.env.local

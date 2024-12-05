@@ -1,0 +1,37 @@
+# Thư mục build của Rust
+/target/
+
+# File khóa của Rust package manager
+Cargo.lock
+
+# File nhị phân
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# File tạm của IDE và editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# File môi trường
+.env
+.env.local
+
+# File hệ thống
+.DS_Store
+Thumbs.db
+
+# File log
+*.log
+log/
+logs/
+debug.log
+error.log
+access.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 
